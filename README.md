@@ -1,3 +1,9 @@
 # typro-theme
 
-我正在用的 typro 主题，推荐给大家
+
+
+收藏了两份主题
+
+* Resume 简历
+* ursine    笔记
+
