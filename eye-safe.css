@@ -2,173 +2,63 @@
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
   font-weight: normal;
-  src: local("Avenir Next LT Pro Regular"), url("./ursine/AvenirNextLTPro-Regular.woff") format("woff");
+  src: local("Avenir Next LT Pro Regular"), url("./eye-safe/AvenirNextLTPro-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: italic;
   font-weight: normal;
-  src: local("Avenir Next LT Pro It"), url("./ursine/AvenirNextLTPro-Italic.woff") format("woff");
+  src: local("Avenir Next LT Pro It"), url("./eye-safe/AvenirNextLTPro-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
   font-weight: bold;
-  src: local("Avenir Next LT Pro Demi"), url("./ursine/AvenirNextLTPro-Demi.woff") format("woff");
+  src: local("Avenir Next LT Pro Demi"), url("./eye-safe/AvenirNextLTPro-Demi.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: italic;
   font-weight: bold;
-  src: local("Avenir Next LT Pro DemiIt"), url("./ursine/AvenirNextLTPro-DemiItalic.woff") format("woff");
+  src: local("Avenir Next LT Pro DemiIt"), url("./eye-safe/AvenirNextLTPro-DemiItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: normal;
   font-weight: normal;
-  src: local("Adelle Light"), url("./ursine/Adelle-Light.woff") format("woff");
+  src: local("Adelle Light"), url("./eye-safe/Adelle-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: italic;
   font-weight: normal;
-  src: local("Adelle Light Italic"), url("./ursine/Adelle-LightItalic.woff") format("woff");
+  src: local("Adelle Light Italic"), url("./eye-safe/Adelle-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: normal;
   font-weight: bold;
-  src: local("Adelle SemiBold"), url("./ursine/Adelle-SemiBold.woff") format("woff");
+  src: local("Adelle SemiBold"), url("./eye-safe/Adelle-SemiBold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: italic;
   font-weight: bold;
-  src: local("Adelle SemiBold Italic"), url("./ursine/Adelle-SemiBoldItalic.woff") format("woff");
+  src: local("Adelle SemiBold Italic"), url("./eye-safe/Adelle-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Cousine';
   font-style: normal;
   font-weight: normal;
-  src: local("Cousine Regular"), url("./ursine/Cousine-Regular.woff") format("woff");
-}
-
-/* CodeMirror Dracula theme */
-.cm-s-inner {
-  padding: .5rem .2rem;
-  border: 1px solid var(--accent-color) !important;
-  border-radius: .25rem;
-}
-
-.cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
-  background-color: #282a36 !important;
-  color: #f8f8f2 !important;
-  border: none;
-}
-
-.cm-s-inner .CodeMirror-gutters {
-  width: 5ch;
-  color: #6d8a88;
-}
-
-.cm-s-inner .CodeMirror-cursor {
-  border-left: solid thin #f8f8f2 !important;
-}
-
-.cm-s-inner .CodeMirror-linenumber {
-  width: 4ch !important;
-  color: #6D8A88;
-}
-
-.cm-s-inner .CodeMirror-line::selection, .cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.cm-s-inner span.cm-comment {
-  color: #6272a4;
-}
-
-.cm-s-inner span.cm-string, .cm-s-inner span.cm-string-2 {
-  color: #f1fa8c;
-}
-
-.cm-s-inner span.cm-number {
-  color: #bd93f9;
-}
-
-.cm-s-inner span.cm-variable, .cm-s-inner span.cm-variable-2 {
-  color: #50fa7b;
-}
-
-.cm-s-inner span.cm-def {
-  color: white;
-}
-
-.cm-s-inner span.cm-operator {
-  color: #ff79c6;
-}
-
-.cm-s-inner span.cm-keyword {
-  color: #ff79c6;
-}
-
-.cm-s-inner span.cm-atom {
-  color: #bd93f9;
-}
-
-.cm-s-inner span.cm-meta {
-  color: #f8f8f2;
-}
-
-.cm-s-inner span.cm-tag {
-  color: #ff79c6;
-}
-
-.cm-s-inner span.cm-attribute {
-  color: #50fa7b;
-}
-
-.cm-s-inner span.cm-qualifier {
-  color: #50fa7b;
-}
-
-.cm-s-inner span.cm-property {
-  color: #66d9ef;
-}
-
-.cm-s-inner span.cm-builtin {
-  color: #50fa7b;
-}
-
-.cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type {
-  color: #ffb86c;
-}
-
-.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.cm-s-inner .CodeMirror-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
-}
-
-.cm-s-inner .CodeMirror-selected, .cm-s-inner .CodeMirror-selectedtext {
-  background: #3b4254 !important;
-  color: inherit;
-  text-shadow: none;
+  src: local("Cousine Regular"), url("./eye-safe/Cousine-Regular.woff") format("woff");
 }
 
 #fences-auto-suggest .active {
@@ -255,8 +145,9 @@ blockquote::before {
   content: '';
   position: absolute;
   left: -2rem;
-  height: 100%;
-  width: .25rem;
+  top: 0.1rem;
+  height: 70%;
+  width: .2rem;
   background: #db4d52;
 }
 
@@ -866,7 +757,7 @@ footer.ty-footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("ursine/night.png") no-repeat 45% 90% transparent;
+  background: url("eye-safe/night.png") no-repeat 45% 90% transparent;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -935,57 +826,62 @@ sup.md-footnote {
 }
 
 #write > p:first-child:not(:only-child)::before, #write > p:only-child::before {
-  background: url("ursine/day.png") no-repeat 55% 90% transparent;
+  background: url("eye-safe/day.png") no-repeat 55% 90% transparent;
   background-size: cover;
 }
 
-
-/* Based on Sublime Text's Monokai theme */
-.cm-s-inner.CodeMirror { background: #272822; color: #f8f8f2; }
-.cm-s-inner div.CodeMirror-selected { background: #49483E; }
-.cm-s-inner .CodeMirror-line::selection, .cm-s-inner .CodeMirror-line > span::selection, .cm-s-inner .CodeMirror-line > span > span::selection { background: rgba(73, 72, 62, .99); }
-.cm-s-inner .CodeMirror-line::-moz-selection, .cm-s-inner .CodeMirror-line > span::-moz-selection, .cm-s-inner .CodeMirror-line > span > span::-moz-selection { background: rgba(73, 72, 62, .99); }
-.cm-s-inner .CodeMirror-gutters { background: #272822; border-right: 0px; }
-.cm-s-inner .CodeMirror-guttermarker { color: white; }
-.cm-s-inner .CodeMirror-guttermarker-subtle { color: #d0d0d0; }
-.cm-s-inner .CodeMirror-linenumber { color: #d0d0d0; }
-.cm-s-inner .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
-
-.cm-s-inner span.cm-comment { color: #75715e; }
-.cm-s-inner span.cm-atom { color: #ae81ff; }
-.cm-s-inner span.cm-number { color: #ae81ff; }
-
-.cm-s-inner span.cm-property, .cm-s-inner span.cm-attribute { color: #a6e22e; }
-.cm-s-inner span.cm-keyword { color: #f92672; }
-.cm-s-inner span.cm-builtin { color: #66d9ef; }
-.cm-s-inner span.cm-string { color: #e6db74; }
-
-.cm-s-inner span.cm-variable { color: #f8f8f2; }
-.cm-s-inner span.cm-variable-2 { color: #9effff; }
-.cm-s-inner span.cm-variable-3 { color: #66d9ef; }
-.cm-s-inner span.cm-def { color: #fd971f; }
-.cm-s-inner span.cm-bracket { color: #f8f8f2; }
-.cm-s-inner span.cm-tag { color: #f92672; }
-.cm-s-inner span.cm-header { color: #ae81ff; }
-.cm-s-inner span.cm-link { color: #ae81ff; }
-.cm-s-inner span.cm-error { background: #f92672; color: #f8f8f0; }
-
-.cm-s-inner .CodeMirror-activeline-background { background: #373831; }
-.cm-s-inner .CodeMirror-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
+content {
+  background: #E3EDCD;
 }
 
-/**apply to code fences with plan text**/
+
+/* Code Blocks */
 .md-fences {
-  background-color: #272822;
-  color: #f8f8f2;
+  margin: 0 0 20px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 0.4em 1em;
+  padding-top: 0.4em;
   border-radius: 4px;
-  
+  background-color: #FAF9DE;
 }
 
-.md-fences .code-tooltip {
-  background-color: #272822;
+.task-list {
+  padding-left: 0;
 }
 
+.task-list-item {
+  padding-left: 2rem;
+}
 
+.task-list-item input {
+  top: 3px;
+}
+
+.task-list-item input {
+  outline: none;
+  margin-bottom: 0.5em;
+}
+
+.task-list-item input::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: #fdfdfd;
+  margin-left: -0.1rem;
+  margin-right: 0.1rem;
+  margin-top: -0.9rem;
+}
+
+.task-list-item input:checked::before {
+  padding-left: 0.125em;
+  content: '✔';
+  /*◘*/
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+  margin-top: -0.9rem;
+}
