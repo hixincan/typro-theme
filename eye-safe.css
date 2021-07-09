@@ -274,7 +274,13 @@ td, th {
   content: 'H6';
 }
 
-#write ol, #write ul {
+#write ol {
+  padding-left: 1rem;
+  margin: .5rem 0;
+}
+
+
+#write ul {
   padding-left: 2rem;
   margin: .5rem 0;
 }
